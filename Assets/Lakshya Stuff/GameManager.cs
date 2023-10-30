@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,6 +14,7 @@ public class GameManager : MonoBehaviour
 
     public void OnButtonClicked(pbutton button)
     {
+        print("bruh");
         if (currentIndex < buttonsInOrder.Count && button == buttonsInOrder[currentIndex])
         {
             
